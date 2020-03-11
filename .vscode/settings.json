@@ -1,3 +1,8 @@
 {
-    "python.linting.enabled": true
+  "python.linting.enabled": true,
+  "python.pythonPath": "/Users/Josh/.pyenv/versions/3.8.1/bin/python",
+  "python.autoComplete.extraPaths": [
+    "~/NewProjects/Django_Rest_Tutorial/recipe-app-api/app"
+  ],
+  "python.linting.pylintPath": "/usr/local/bin/pylint"
 }
