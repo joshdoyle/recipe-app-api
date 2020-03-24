@@ -4,5 +4,12 @@
   "python.autoComplete.extraPaths": [
     "~/NewProjects/Django_Rest_Tutorial/recipe-app-api/app"
   ],
-  "python.linting.pylintPath": "/usr/local/bin/pylint"
+  "python.linting.pylintPath": "/usr/local/bin/pylint",
+  "editor.tabCompletion": "on",
+  // Controls if quick suggestions should show up while typing
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  }
 }
