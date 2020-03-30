@@ -1,6 +1,5 @@
 {
-  "python.linting.enabled": true,
-  "python.pythonPath": "/Users/Josh/.pyenv/versions/3.8.1/bin/python",
+  "python.pythonPath": "/usr/local/opt/python/bin/python3.7",
   "python.autoComplete.extraPaths": [
     "~/NewProjects/Django_Rest_Tutorial/recipe-app-api/app"
   ],
@@ -11,5 +10,7 @@
     "other": true,
     "comments": true,
     "strings": true
-  }
+  },
+  "python.formatting.provider": "black",
+  "python.linting.flake8Enabled": true
 }
